@@ -1,32 +1,16 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/RQyEtg8L)
-Assignment A4 - Web Component Framework
-===
+Vercel Link: https://a4-zoe-fisk.vercel.app/
 
-Due: Monday, February 17th, by 11:59 AM.
-
-For this assignment you will re-implement Assignment A3 using React components, a style framework, MongoDB, and either 
-1. the React framework, Express, and Passport GitHub authentication, or
-2. the NextJS framework with NextAuth for authentication
-Please keep in mind that implementing authentication is challenging and can be frustrating to debug. Please start this
-assignment early! You may deploy this project on any hosting service (Glitch, DigitalOcean, Heroku etc.).
-However, make sure to push your final application to your assignment GitHub repo so the course staff can review the code.
-
-Deliverables
----
-Do the following to complete this assignment:
-
-1. Implement your project with the above requirements.
-3. Test your project to make sure that when someone goes to your main page on Glitch/Heroku/etc., it displays correctly.
-4. Ensure that your project has the proper naming scheme `a4-firstname-lastname` so we can find it.
-5. Push to your assignment repository and modify the README to the specifications below. Be sure to add *all* project files.
-
-Sample Readme (delete the above when you're ready to submit, and modify the below so with your links and descriptions)
----
-
-## Your Web Application Title
-
-your hosting link e.g. http://a4-wilsonwong.glitch.me
-
-Include a very brief summary of your project here and what you changed / added to assignment #3. 
-
-Unlike previous assignments, this assignment will be solely graded on whether or not you successfully complete it. Partial credit will be generously given.
+I have pretty much completely changed the look of my website from a3, I feel like it is much better than how it used to
+look now that I am using better styling. I used Mantine components to style my website, which I think really pull it all
+together very nicely. Overall, I think my website is significantly more polished as well. While there are some minor
+issues, like not looking good on mobile (especially on the home page), I'm very satisfied with the progress that I
+made. In the a4 version of my site, there are a lot more features and things than in the a3 version. For example,
+I added Unsplash API, so that users can search for images and set them as their background, which saves to the database
+so their choice of image is there the next time that they sign in. Also, in addition to Github authentication, I also
+added Google authentication. In addition to signing in and out, I added the ability to delete your account, which
+removes all tasks from the database as well as removing the user's background image, if they chose their own. At this time,
+it technically does not actually remove their account from Github or Google, so this is something that I would have added
+if I had more time. However, on the user's end, it is hard to immediately tell that their account wasn't actually deleted.
+Another small addition was that when a user signs in for the first time, it generates a username based on their email
+address, and this username is displayed at the top of their to-do list. Finally, I added a button in the settings menu
+that allows users to export their tasks as a CSV file.
